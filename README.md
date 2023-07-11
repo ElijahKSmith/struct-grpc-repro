@@ -11,7 +11,7 @@ How to run:
 Expected ouput:
 
 ```
-{ testStruct: { fields: { testString: { stringValue: "test string" }, testSub: { fields: { testNum: { numberValue: 123 } } } } }
+{ testStruct: { fields: { testString: { stringValue: "test string" }, testSub: { fields: { testNum: { numberValue: 123 } } } } } }
 ```
 
 Actual output:
