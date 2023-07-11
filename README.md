@@ -8,10 +8,10 @@ How to run:
 2. `node server.js`
 3. `node client.js`
 
-Expected ouput (I eyeballed this because the output is not being received properly):
+Expected ouput:
 
 ```
-{ testStruct: { fields: { testString: { stringValue: "test string" }, testSub: { fields: { testNum: { numberValue: 123 } } } } } }
+{ testStruct: { testString: "test string", testSub: { testNum: 123 } } }
 ```
 
 Actual output:
