@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "google/protobuf/struct.proto";
+
+package testproto;
+
+service TestService {
+  rpc TestMethod (Request) returns (Reply) {}
+}
+
+message Request {}
+
+message Reply {
+  google.protobuf.Struct testStruct = 1;
+}
