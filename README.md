@@ -1,6 +1,6 @@
 # struct-grpc-repro
 
-Minimal reproduction repo for an issue where gRPC node is not serializing structs properly
+Minimal reproduction repo for an issue where `@grpc/grps-js` is not serializing `google.protobuf.Struct` data properly.
 
 How to run:
 
@@ -8,7 +8,7 @@ How to run:
 2. `node server.js`
 3. `node client.js`
 
-Expected ouput:
+Expected ouput (I eyeballed this because the output is not being received properly):
 
 ```
 { testStruct: { fields: { testString: { stringValue: "test string" }, testSub: { fields: { testNum: { numberValue: 123 } } } } } }
