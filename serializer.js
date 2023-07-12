@@ -1,3 +1,7 @@
+/**
+ * Serializer taken from https://github.com/grpc/grpc-node/blob/fe42d6495ef8ab9635060136036157327d7181d7/packages/grpc-js-xds/src/xds-bootstrap.ts#L161-L215
+ */
+
 function validateValue(obj) {
   if (Array.isArray(obj)) {
     return {
